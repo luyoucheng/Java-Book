@@ -21,13 +21,13 @@
 	  - [5.2 classloder的种类](#52-classloder的种类)        
 	  - [5.3 classloder的加载原理](#53-classloder的加载原理)     
 	  - [5.4 双亲委派机制](#54-双亲委派机制)          
-		  -    [5.4.1  为什么使用双亲委派机制？](#541--为什么使用双亲委派机制)auto  
+		  -    [5.4.1  为什么使用双亲委派机制？](#541--为什么使用双亲委派机制)  
 		  - [5.4.2  java能不能自己写一个类叫java.lang.System](#542--java能不能自己写一个类叫javalangsystem) 
   - [6. Java类的装载过程](#5-java类的装载过程)     
 	  -   [6.1  loadClass与Class.forName 区别](#61--loadclass与classforname-区别)
 	-	[7. JVM内存模型](#7-jvm内存模型)      
          - [7.1 线程私有部分](#71-线程私有部分)           
-	         -  [7.1.1  局部变量表与操作栈的区别](#711--局部变量表与操作栈的区别)auto       	
+	         -  [7.1.1  局部变量表与操作栈的区别](#711--局部变量表与操作栈的区别)      	
 	         -  [7.1.2  递归为什么会引发java.lang.StackOverflowErrow异常？](#712--递归为什么会引发javalangstackoverflowerrow异常)           
 	         -  [7.1.3  虚拟机栈过多会引发java.lang.OutOfMemoryError异常？](#713--虚拟机栈过多会引发javalangoutofmemoryerror异常)        
 	     - [7.2 线程共有部分](#72-线程共有部分)         
