@@ -745,7 +745,7 @@ JVM内存模型就是JVM架构中的 RUNTIME DATA AREA区域
 >
 >虚拟机栈： a  hw  
 >
-> 堆：  1（常量池） String("test") (常量池) Object: Helloword
+> 堆：  1（常量池） String("test") (常量池)     Object: Helloword
 
 
 ### 7.8 各个内存中存放的内容
@@ -756,6 +756,11 @@ JVM内存模型就是JVM架构中的 RUNTIME DATA AREA区域
 > 方法区： 类信息 方法信息 属性信息 
 > 
 > 堆： 静态变量 对象本身   需要GC回收
+
+
+### 7.9 类什么时候被加载  
+
+>调用构造方法的时候， 子类被调用的时候，执行类的静态函数的时候，反射的时候 
 
  
 
