@@ -1,4 +1,4 @@
-#Java基础
+# Java基础
 
 <!-- TOC -->
 -  [Java基础](#java基础)  
@@ -7,35 +7,35 @@
   - [编译型语言与解释型语言的区别](#编译型语言与解释型语言的区别)
    [Undo](#undo)
  - [java的数据类型](#java的数据类型)  
-   - [整数类型](#整数类型)      
+ - [整数类型](#整数类型)      
      - [备注：](#备注)
-   - [浮点类型](#浮点类型)  
-   - [自动装箱拆箱](#自动装箱拆箱)   
-    - [Integer的valueOf方法与parseInt方法以及Number类的intValue](#integer的valueof方法与parseint方法以及number类的intvalue)   
-    - [有时候不用int声明而用integer声明？](#有时候不用int声明而用integer声明)   
-    - [byte i=1 i+=1 与i =i+1有什么区别？](#byte-i1-i1-与i-i1有什么区别)  
-    - [i=i++值为多少](#ii值为多少) 
-    - [备注：](#备注-1)
+ - [浮点类型](#浮点类型)  
+ - [自动装箱拆箱](#自动装箱拆箱)   
+ - [Integer的valueOf方法与parseInt方法以及Number类的intValue](#integer的valueof方法与parseint方法以及number类的intvalue)   
+  - [有时候不用int声明而用integer声明？](#有时候不用int声明而用integer声明)   
+  - [byte i=1 i+=1 与i =i+1有什么区别？](#byte-i1-i1-与i-i1有什么区别)  
+  - [i=i++值为多少](#ii值为多少) 
+     - [备注：](#备注-1)
        
-    - [Object有哪些方法](#object有哪些方法)  
-    - [clone 深克隆浅克隆](#clone-深克隆浅克隆)
-    - [什么是序列化与反序列化](#什么是序列化与反序列化)
-    - [serialVersionUID作用](#serialversionuid作用)  
-    - [不使变量序列化有几种方法](#不使变量序列化有几种方法)    
-    - [==与equals的区别](#与equals的区别) 
-    - [equals方法与hashCode方法的关系](#equals方法与hashcode方法的关系)
-    - [关键词](#关键词) 
-    - [Java特性](#java特性)   
-    - [面向对象与面向过程](#面向对象与面向过程)   
-   		 - [关于继承的笔试题](#关于继承的笔试题)   
-        - [笔试题2](#笔试题2)auto    
-    - [静态绑定与动态绑定 UNDO](#静态绑定与动态绑定-undo)  
-    - [抽象类与接口的异同](#抽象类与接口的异同)auto   
-    - [Override与OverWrite的区别](#override与overwrite的区别)auto   
-    - [进程线程](#进程线程)auto        
-    - [进程与线程](#进程与线程)auto       
-    - [创建进程的方法](#创建进程的方法)
-    -  【UNDO】 callable实现原理  线程池(#undo-callable实现原理--线程池)
+ - [Object有哪些方法](#object有哪些方法)  
+ - [clone 深克隆浅克隆](#clone-深克隆浅克隆)
+ - [什么是序列化与反序列化](#什么是序列化与反序列化)
+ - [serialVersionUID作用](#serialversionuid作用)  
+ - [不使变量序列化有几种方法](#不使变量序列化有几种方法)    
+ - [==与equals的区别](#与equals的区别) 
+ - [equals方法与hashCode方法的关系](#equals方法与hashcode方法的关系)
+ - [关键词](#关键词) 
+ - [Java特性](#java特性)   
+ - [面向对象与面向过程](#面向对象与面向过程)   
+   	 - [关于继承的笔试题](#关于继承的笔试题)   
+        - [笔试题2](#笔试题2)    
+ - [静态绑定与动态绑定 UNDO](#静态绑定与动态绑定-undo)  
+ - [抽象类与接口的异同](#抽象类与接口的异同)   
+ - [Override与OverWrite的区别](#override与overwrite的区别)  
+ - [进程线程](#进程线程)       
+ - [进程与线程](#进程与线程)       
+ - [创建进程的方法](#创建进程的方法)
+ -  【UNDO】 callable实现原理  线程池(#undo-callable实现原理--线程池)
                     -<!-- /TOC -->
 
 <br>
@@ -135,7 +135,7 @@ servlet是先编译后部署，修改完以后，MyEclipse进行编译，然后�
 
 <br>
 
-###备注： 
+### 备注： 
 
 >1. 我们确定这么多种数据类型是为了保证合理的利用空间，就好比我们要到一杯水，没必要用一个喷子来承装
 >2. 数据从低到高可以隐式转换类型，从高到低需要显示转换并且可能会导致溢出
@@ -236,7 +236,7 @@ parseInt的效率更高
 
 <br> 
 
-##有时候不用int声明而用integer声明？
+## 有时候不用int声明而用integer声明？
 
 因为int默认返回值为0，Integer返回值为Null，如果用int就导致分不清是默认的0还是传入的0
 
@@ -280,7 +280,8 @@ parseInt的效率更高
 
 <br>
 
-### 备注： 
+
+###  备注： 
 
 >1. 小数默认是浮点类型
 >2. float和double不可以直接参与四则运算，因为其范围问题可能会出错。如果使用小数参与运算要使用BigDecimal
