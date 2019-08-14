@@ -1,16 +1,7 @@
 # LinkedHashMap 学习 
 
 ----------
-<!-- TOC -->
-- [LinkedHashMap 学习](#linkedhashmap-学习)   
- - [1. 链表的建立](#1-链表的建立)      
- - [1.1 建立过程示意图](#11-建立过程示意图)  
- - [2. 链表的删除](#2-链表的删除)    
- - [3. 链表顺序的维护](#3-链表顺序的维护)   
- - [3. LinkedHashMap的应用](#3-linkedhashmap的应用)       
- - [3.1 缓存的应用](#31-缓存的应用)   
- - [参考](#参考)<!-- /TOC -->
-
+<!-- TOC -->autoauto- [LinkedHashMap 学习](#linkedhashmap-学习)auto    - [1. 链表的建立](#1-链表的建立)auto        - [1.1 建立过程示意图](#11-建立过程示意图)auto    - [2. 链表的删除](#2-链表的删除)auto    - [3. 链表顺序的维护](#3-链表顺序的维护)auto    - [3. LinkedHashMap的应用](#3-linkedhashmap的应用)auto        - [3.1 缓存的应用](#31-缓存的应用)auto    - [参考](#参考)autoauto<!-- /TOC -->
 ![](https://s2.ax1x.com/2019/06/12/VR6jQs.png)
 
 <br>

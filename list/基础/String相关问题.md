@@ -1,11 +1,61 @@
 # String相关问题 
 
 
+
+
+<br>
+
+## String的值为什么不可变？
+
+
+>因为他的底层使用了一个final修饰的char数组，因此一旦赋值，他就不可以修改，
+
+
+<br>
+
+## 不可修改有什么好处  
+
+
+>1. 线程安全 2. 它可修改 那么他的hash值也不会变，他作为HashMap的值更加安全 
+
+
+<br>
+
+## 虽然他不可变，但是我们可以通过某种方法修改吗？
+
+	  String str ="abc";
+      Field field =str.getClass().getDeclaredField("value");
+      field.setAccessible(true);
+      char [] charray =(char[])field.get(str);
+      charray[0]='b';
+      System.out.println(str);
+
+
+因为他底层是名为value的char数组的数据添加，所以我们通过反射原理获得其中的数据然后修改数据即可
+
+
+
+<br>
+
+## 输出的值 
+
+<br>
+
+
+		 String str =null;
+         str+="aaaa";
+         System.out.println(str);
+
+
+>输出的结果为nullaaaa
+
 <br>
 
 ## 传值还是传址问题 
 
+
 <br>
+
 >问题： 输出的值为多少？ 答案 lisi 
 
     `public class String01 {

@@ -3,18 +3,7 @@
 
 
 ----------
-<!-- TOC -->
-- [Hashtable](#hashtable)
- - [1. 常量](#1-常量)    
- - [2. 构造函数](#2-构造函数)  
-  - [3. put方法](#3-put方法)
-  - [4. rehash](#4-rehash)
-  - [5. 遍历](#5-遍历)    
-  - [6. 与HashMap的比较](#6-与hashmap的比较)      
-	- [6.1 为什么HashMap中的&位必须为奇数（Length - 1)?](#61-为什么hashmap中的位必须为奇数length---1)<!-- /TOC -->
-
-
-
+<!-- TOC -->autoauto- [Hashtable](#hashtable)auto    - [1. 常量](#1-常量)auto    - [2. 构造函数](#2-构造函数)auto    - [3. put方法](#3-put方法)auto- [4. rehash](#4-rehash)auto- [5. 遍历](#5-遍历)auto    - [6. 与HashMap的比较](#6-与hashmap的比较)auto        - [6.1 为什么HashMap中的&位必须为奇数（Length - 1)?](#61-为什么hashmap中的位必须为奇数length---1)autoauto<!-- /TOC -->
     public class Hashtable<K,V>
     extends Dictionary<K,V>
     implements Map<K,V>, Cloneable, java.io.Serializable
